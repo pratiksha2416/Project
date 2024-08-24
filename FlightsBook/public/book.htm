@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+<body>
+    <header>
+        <div class="logo">FlightsBook</div>
+        <nav>
+            <ul>
+                <li><a href="home.htm" id="linka">Home</a></li>
+                <li><a href="about.htm">About</a></li>
+                <li><a href="book.htm" id="linkp">Booking</a></li>
+                <li><a href="contact.htm">Contact</a></li>
+                <li><a href="feedback.htm">Feedback</a></li>
+            </ul>
+        </nav>
+        <div class="user-account">
+            <a href="login.htm" id="loghome">Login</a>
+           <a href="register.htm" id="reghome">Register</a>
+        
+        </div>
+    </header>
+    <main>
+        <section class="search-form">
+            
+            <form id="flightSearchForm"> 
+                <h1>Book Your Flight</h1>
+                <label for="departure">Departure City:</label>
+                <input type="text" id="departure" name="departure">
+                <label for="destination">Destination City:</label>
+                <input type="text" id="destination" name="destination">
+                <!-- <label for="departure-date">Departure Date:</label>
+                <input type="date" id="departure-date" name="departure-date">
+                <label for="return-date">Return Date:</label>
+                <input type="date" id="return-date" name="return-date"> -->
+                <!-- <label for="passengers">Passengers:</label>
+                <input type="number" id="passengers" name="passengers" min="1" max="50">
+                <div class="extra-baggage-container">
+                    <label>Extra Baggage:</label>
+                    <div class="extra-baggage-options">
+                        <label for="extra-baggage-yes">Yes</label>
+                        <input type="radio" id="extra-baggage-yes" name="extra-baggage" value="yes" onchange="toggleBaggageDropdown(true)">
+                        <label for="extra-baggage-no">No</label>
+                        <input type="radio" id="extra-baggage-no" name="extra-baggage" value="no" onchange="toggleBaggageDropdown(false)" >
+                    </div>
+                </div> -->
+                
+                <!-- <div id="baggage-dropdown">
+                    <label for="baggage-amount">Baggage Amount:</label>
+                    <select id="baggage-amount" name="baggage-amount">
+                        <option value="1">1 Bag</option>
+                        <option value="2">2 Bags</option>
+                        <option value="3">3 Bags</option>
+                        <option value="4">4 Bags</option>
+                        <option value="5">5 Bags</option>
+                        <option value="6">6 Bags</option>
+                        <option value="7">7 Bags</option>
+                        <option value="8">8 Bags</option>
+                        <option value="9">9 Bags</option>
+                        <option value="10">10 Bags</option>
+
+                    </select>
+                </div> -->
+                <button type="submit">Search Flights</button>
+            </form>
+        </section>
+        <section class="flight-results" id="flight-results">
+            <h2>Available Flights</h2>
+            <div id="results"></div>
+        </section>
+        <!-- <section class="featured-offers">
+            <h2>Featured Offers</h2>
+            <div class="offer">Special deal to Paris</div>
+            <div class="offer">Discount on flights to Tokyo</div>
+            <div class="offer">Cheap flights to New York</div>
+        </section>
+        <section class="flight-results">
+            <h2>Available Flights</h2>
+            
+        </section>
+    </main>
+    <footer>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="social-media">
+        </div>
+    </footer> -->
+    <!-- <footer>
+        <p>&copy; 2024 MyTravel. All Rights Reserved.</p>
+    </footer> -->
+    <script src="book.js"></script>
+</body>
+</html>

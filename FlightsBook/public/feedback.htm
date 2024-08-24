@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+<body>
+    
+    <main>
+        <div class="feedback-box">
+            <h2>We Value Your Feedback</h2>
+            <form id="feedbackForm">
+               
+                <div class="input-box">
+                    <label for="rating">Rating</label>
+                    <select id="rating" name="rating" required>
+                        <option value="1">1 - Very Poor</option>
+                        <option value="2">2 - Poor</option>
+                        <option value="3">3 - Average</option>
+                        <option value="4">4 - Good</option>
+                        <option value="5">5 - Excellent</option>
+                    </select>
+                </div>
+                <div class="input-box">
+                    <label for="comments">Comments</label>
+                    <textarea id="comments" name="comments" rows="5" ></textarea>
+                </div>
+                <button type="submit">Submit Feedback</button>
+            </form>
+            <div id="thankYouMessage" style="display:none;">
+                <h3>Thank you for your feedback!</h3>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 FlightsBook. All Rights Reserved.</p>
+    </footer>
+    <script src="feedback.js"></script>
+</body>
+</html>

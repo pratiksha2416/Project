@@ -1,0 +1,128 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('feed.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensures the entire photo covers the background */
+    color: #fff; /* Ensure text is readable */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contact-box {
+    width: 500px;
+    /* background-color: rgba(6, 6, 6, 0.9); */
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #000; /* Ensure text is readable */
+    /* backdrop-filter: blur(10px);  */
+    /* Adds a blur effect to the background */
+
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+}
+
+.contact-box h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.input-box {
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-box input,
+.input-box textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d5d3d3;
+    border-radius: 5px;
+    background-color:#e5e2e2 ;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #272828;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #454545;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}

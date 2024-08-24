@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+header .logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+header ul {
+    display: inline-flex;
+}
+header ul li {
+    margin-right: 20px;
+}
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease; 
+}
+header ul li a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.user-account {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+.user-account a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.4s ease;
+}
+.user-account ul {
+    display: inline-flex;
+}
+.user-account ul {
+    margin-right: 20px;
+}
+.user-account a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.user-account a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.logo {
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('book.jpg'); /* Path to your background image */
+    background-size: cover;
+    background-position: center;
+}
+
+.search-form {
+    width: 500px;
+    background-color: rgba(214, 211, 211, 0.9); /* Slightly transparent background */
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+}
+
+.search-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-form input, .search-form button, .search-form select {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-form button {
+    background-color: #050505;
+    color: white;
+    border: none;
+}
+
+.extra-baggage-container {
+    display: flex;
+    align-items: center;
+}
+.extra-baggage-options {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.extra-baggage-options label {
+    margin-right: 10px;
+}
+#baggage-dropdown {
+    margin-top: 10px;
+    display: none;
+}
+.flight-results {
+    margin: 2em;
+}
+
+.flight-results h2 {
+    font-size: 1.5em;
+}
+
+#results {
+    margin-top: 1em;
+}
